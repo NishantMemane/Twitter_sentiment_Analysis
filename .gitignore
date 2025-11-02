@@ -1,0 +1,52 @@
+# ===============================
+# Python / TensorFlow Project Ignore List
+# ===============================
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+
+# Virtual environments
+venv/
+.env/
+.env.bak/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# TensorFlow / Keras model files
+*.h5
+*.hdf5
+*.pb
+checkpoints/
+saved_models/
+logs/
+
+# Dataset files (too large for GitHub)
+*.csv
+*.tsv
+*.json
+*.zip
+*.gz
+*.tar
+*.7z
+*.rar
+*.xlsx
+*.xls
+
+# Temporary or local files
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+.history/
